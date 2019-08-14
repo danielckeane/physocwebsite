@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Typography } from "@material-ui/core";
+import "./App.css"
 /*
               saturate: "2476%",
               invert: "0.5",
@@ -21,6 +22,7 @@ class AboutItem extends Component {
         }}
       >
         <div
+          className="DisplayBlockOnSmallScreens"
           style={{
             //display: "inline",
             float: "left",
@@ -37,6 +39,7 @@ class AboutItem extends Component {
           <img
             src={this.props.img}
             width="30em"
+
             style={
               {
 

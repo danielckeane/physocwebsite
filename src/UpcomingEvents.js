@@ -15,12 +15,12 @@ class UpcomingEvents extends Component {
                     {" Upcoming Events "}
                 </Typography>
                 <EventItem
-                    img="images/EventLecture.svg"
+                    img="images/EventMeeting.svg"
                     date="09/01/20"
                     title="Some Event"
                     body="Dr XXX is giving a guest lecture on dark matter"
                 />
-                <Typography variant="h5" style={{ padding: "3px 10px" }}>
+                <Typography variant="h5" style={{ padding: "3px 10px" }} className="AboutUsSmallScreen">
                     {
                         "We currently have no upcoming events (but it's best to check facebook, justin case)"
                     }

@@ -5,21 +5,26 @@ import Typography from "@material-ui/core/Typography";
 import "./App.css";
 //transparent
 //#5e81ac
+
+/*
+          <img
+            src="images/PhysocNewLogoWhiteNoText.svg"
+            width="100px"
+            style={{ margin: "0em 1em" }}
+          />
+*/
 class NavBar extends Component {
   render() {
     return (
       <AppBar
-        position="fixed"
-        style={{ background: "transparent", boxShadow: "none" }}
+
+        style={{ background: "transparent", boxShadow: "none", "position": "fixed" }}
         color="#00ff00"
       >
         <Toolbar>
-          <img
-            src="images/PhysocLogo.svg"
-            width="20em"
-            style={{ margin: "0em 1em" }}
-          />
+
           <Typography variant="h6" style={{ color: "#bf616a" }}>
+
             Physoc
           </Typography>
           <div style={{ flexGrow: "1" }} />
@@ -49,6 +54,7 @@ class NavBar extends Component {
               Committee
           </a>
           </Typography>
+
         </Toolbar>
       </AppBar>
     );
@@ -56,3 +62,21 @@ class NavBar extends Component {
 }
 
 export default NavBar;
+//#3b5998
+
+/*
+          <Typography
+            variant="h6"
+
+          >
+            <a href="https://www.facebook.com/guphysoc/" style={{ "color": "#6169bf" }} className="Nav-button">
+              Facebook
+          </a>
+          </Typography>
+
+
+
+            <a href="#TopPage" className="Nav-button" style={{ color: "#bf616a" }}>
+              Physoc
+              </a>
+*/

@@ -24,6 +24,7 @@ class TopPage extends Component {
                         animationDelay: `calc(-${Math.random() * 120}s)`
                         //transform: `rotate(20deg)`
                         //transform: `rotate(calc(${Math.round(Math.random()) * 360}deg))`
+                        //PhysocNewLogoWhiteNoText2, PhysocLogo
                     }}
                 />)
         }
@@ -31,11 +32,11 @@ class TopPage extends Component {
 
     render() {
         return (
-            <header className="App-header">
+            <header className="App-header" id="TopPage">
 
                 {this.state.quarkElements}
 
-                <img src="images/PhysocLogo.svg" width="10%" style={{ position: "relative", zIndex: "2" }} />
+                <img src="images/PhysocNewLogoWhiteNoText2.svg" width="35%" style={{ position: "relative", zIndex: "2" }} />
 
                 <img
                     src="images/NEONPhysics2.svg"

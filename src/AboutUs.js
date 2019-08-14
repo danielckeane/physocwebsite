@@ -16,7 +16,8 @@ class AboutUs extends Component {
                 <Typography
                     variant="h5"
                     color="text"
-                    style={{ padding: "20px 10%", zIndex: "2" }}
+                    className="AboutUsSmallScreen"
+                    style={{ padding: "20px 18%", zIndex: "2", "textAlign": "justify" }}
                 >
                     {
                         "Hello there! We're Physoc, the glasgow university physics society.  We have a libuary which, though not as big as the universities libuary, still has a fair number of good books.  We also have a common room where we sometimes hold events.  The list of events we hold is shown below."
@@ -45,22 +46,22 @@ class AboutUs extends Component {
                         </Grid>
                         <Grid item xs={12} sm={6}>
                             <AboutItem
-                                img="images/PhysocLogo.svg"
-                                title="PUB CRAWLS"
+                                img="images/EventBeer.svg"
+                                title="Pub Crawls"
                                 body="We regularly hold pub crawls where you can meet up and solialise with like minded people"
                             />
                         </Grid>
                         <Grid item xs={12} sm={6}>
                             <AboutItem
-                                img="images/PhysocLogo.svg"
-                                title="Some Title"
+                                img="images/EventMicrophone.svg"
+                                title="Radio Speaker"
                                 body="This is where the details go"
                             />
                         </Grid>
                         <Grid item xs={12} sm={6}>
                             <AboutItem
-                                img="images/PhysocLogo.svg"
-                                title="Some Title"
+                                img="images/EventSolarSystem.svg"
+                                title="Team up with Astrosoc"
                                 body="This is where the details go"
                             />
                         </Grid>

@@ -53,6 +53,7 @@ class App extends Component {
           <TopPage />
           <AboutUs />
           <UpcomingEvents />
+          <OurCommittee />
 
 
 
@@ -83,7 +84,33 @@ class App extends Component {
             }}
           />
 
-          <OurCommittee />
+          <img
+            src="images/Telescope.svg"
+            style={{
+              position: "absolute",
+              alignItems: "left",
+              float: "left",
+              right: "7em",
+              top: "300%",
+              width: "120px",
+              zIndex: "0"
+            }}
+          />
+
+          <img
+            src="images/OldLogoGreen.svg"
+            style={{
+              position: "absolute",
+              alignItems: "left",
+              float: "left",
+              left: "4%",
+              top: "360%",
+              width: "200px",
+              zIndex: "0"
+            }}
+          />
+
+
 
 
 
