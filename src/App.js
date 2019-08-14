@@ -137,7 +137,7 @@ class App extends Component {
               fontStyle: "italic"
             }}
           >
-            You've reached the end, or, as any good physics knows, you've only
+            You've reached the end, or, as any good physicist knows, you've only
             just found the beginning.
           </Typography>
         </div>

@@ -38,13 +38,14 @@ class AboutItem extends Component {
         >
           <img
             src={this.props.img}
-            width="30em"
+            width={this.props.imgWidth}
 
             style={
               {
 
                 //margin: "auto"
                 // marginTop: "0.5em"
+                //width="30em"
               }
             }
           />

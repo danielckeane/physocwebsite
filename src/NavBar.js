@@ -16,16 +16,18 @@ import "./App.css";
 class NavBar extends Component {
   render() {
     return (
-      <AppBar
+      <div
 
-        style={{ background: "transparent", boxShadow: "none", "position": "fixed" }}
+        style={{ width: "100%", background: "transparent", boxShadow: "none", "position": "fixed", "margin": "0px 0px" }}
         color="#00ff00"
       >
         <Toolbar>
 
           <Typography variant="h6" style={{ color: "#bf616a" }}>
 
-            Physoc
+            <a href="#TopPage" className="Nav-button" style={{ color: "#bf616a" }}>
+              Physoc
+              </a>
           </Typography>
           <div style={{ flexGrow: "1" }} />
 
@@ -55,8 +57,18 @@ class NavBar extends Component {
           </a>
           </Typography>
 
+          <Typography
+            variant="h6"
+
+          >
+            <a href="https://www.facebook.com/guphysoc/" style={{ "color": "#6169bf" }} className="Nav-button">
+              Facebook
+          </a>
+          </Typography>
+
+
         </Toolbar>
-      </AppBar>
+      </div>
     );
   }
 }

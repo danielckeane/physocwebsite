@@ -20,7 +20,7 @@ class AboutUs extends Component {
                     style={{ padding: "20px 18%", zIndex: "2", "textAlign": "justify" }}
                 >
                     {
-                        "Hello there! We're Physoc, the glasgow university physics society.  We have a libuary which, though not as big as the universities libuary, still has a fair number of good books.  We also have a common room where we sometimes hold events.  The list of events we hold is shown below."
+                        "Hello there! We're Physoc, the Glasgow University physics society.  We have a library which, though not as big as the university's library, still has a fair number of good books.  We also have a common room where we sometimes hold events."
                     }
                 </Typography>
                 <Typography variant="h6" style={{ margin: "0.2em" }}>
@@ -29,12 +29,13 @@ class AboutUs extends Component {
                 <div
                     style={{
                         margin: "1em 10em",
-                        width: "70%",
+                        width: "60%",
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center"
                         //backgroundColor: "black"
                     }}
+                    className="AboutUsSmallScreen"
                 >
                     <Grid container spacing="24">
                         <Grid item xs={12} sm={6}>
@@ -42,13 +43,15 @@ class AboutUs extends Component {
                                 img="images/EventLecture.svg"
                                 title="Guest Lectures"
                                 body="We often hold guest lectures on a wide varity of topics, from dark matter to sports science"
+                                imgWidth="30px"
                             />
                         </Grid>
                         <Grid item xs={12} sm={6}>
                             <AboutItem
                                 img="images/EventBeer.svg"
                                 title="Pub Crawls"
-                                body="We regularly hold pub crawls where you can meet up and solialise with like minded people"
+                                body="We regularly hold pub crawls where you can meet up and socialise with like minded people"
+                                imgWidth="30px"
                             />
                         </Grid>
                         <Grid item xs={12} sm={6}>
@@ -56,13 +59,15 @@ class AboutUs extends Component {
                                 img="images/EventMicrophone.svg"
                                 title="Radio Speaker"
                                 body="This is where the details go"
+                                imgWidth="30px"
                             />
                         </Grid>
                         <Grid item xs={12} sm={6}>
                             <AboutItem
-                                img="images/EventSolarSystem.svg"
+                                img="images/EventSolarSystem2.svg"
                                 title="Team up with Astrosoc"
                                 body="This is where the details go"
+                                imgWidth="50px"
                             />
                         </Grid>
                     </Grid>

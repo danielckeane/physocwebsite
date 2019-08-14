@@ -22,7 +22,7 @@ class UpcomingEvents extends Component {
                 />
                 <Typography variant="h5" style={{ padding: "3px 10px" }} className="AboutUsSmallScreen">
                     {
-                        "We currently have no upcoming events (but it's best to check facebook, justin case)"
+                        "We currently have no upcoming events (but it's best to check facebook, just in case)"
                     }
                 </Typography>
             </div>
