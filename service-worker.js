@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/PhysocWebsite/precache-manifest.1f485d46157f7006271695e8daf6e0da.js"
+  "/PhysocWebsite/precache-manifest.63b63f88cffc5c572c7c13abb766a8af.js"
 );
 
 workbox.clientsClaim();
