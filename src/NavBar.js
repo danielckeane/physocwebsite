@@ -1,18 +1,8 @@
 import React, { Component } from "react";
-import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import "./App.css";
-//transparent
-//#5e81ac
 
-/*
-          <img
-            src="images/PhysocNewLogoWhiteNoText.svg"
-            width="100px"
-            style={{ margin: "0em 1em" }}
-          />
-*/
 class NavBar extends Component {
   render() {
     return (

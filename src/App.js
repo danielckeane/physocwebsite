@@ -1,33 +1,13 @@
 import React, { Component } from "react";
 import NavBar from "./NavBar.js";
-import logo from "./logo.svg";
 import "./App.css";
 import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 import { Typography } from "@material-ui/core";
-import Grid from "@material-ui/core/Grid";
 
 import TopPage from "./TopPage.js";
-import AboutItem from "./AboutItem.js";
-import EventItem from "./EventItem.js";
 import AboutUs from "./AboutUs.js";
 import UpcomingEvents from "./UpcomingEvents.js";
 import OurCommittee from "./Committee.js";
-//import { Transform } from "stream";
-//import "./moveAlongPath.js";
-/*
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-*/
 
 const theme = createMuiTheme({
   palette: {
@@ -54,8 +34,6 @@ class App extends Component {
           <AboutUs />
           <UpcomingEvents />
           <OurCommittee />
-
-
 
           <img
             src="images/SolarSystem.svg"
