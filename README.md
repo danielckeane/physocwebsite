@@ -1,10 +1,11 @@
-<p align="center"><img src="public/images/NEONPhysicsLogoWithBack.png" alt="NEON Physics Logo" width="1007" height="286"></p>
+<p align="center"><img src="public/images/Physoc2019Logo.png" alt="NEON Physics Logo" width="500" height="345"></p>
 
-<h1 align="center">Physoc</h1>
+<!--<h1 align="center">Physoc</h1>
 <div align="center">
  The Glasgow University Physics Society.
- </div>
+ </div>-->
 <br>
+
 
 ## Build Instructions
 
