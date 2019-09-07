@@ -28,6 +28,7 @@ class UpcomingEvents extends Component {
 
 export default UpcomingEvents;
 
+// Use the text below when there are no upcomming events
 /*
                <Typography variant="h5" style={{ padding: "3px 10px" }} className="AboutUsSmallScreen">
                     {

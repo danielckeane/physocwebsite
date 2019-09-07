@@ -42,7 +42,6 @@ class App extends Component {
               position: "absolute",
               alignItems: "left",
               float: "left",
-              //right: "60%",
               left: "-330px",
               top: "140%",
               width: "600px",
@@ -63,7 +62,6 @@ class App extends Component {
               zIndex: "0"
             }}
           />
-
           <img
             src="images/Telescope.svg"
             alt=""
@@ -77,7 +75,6 @@ class App extends Component {
               zIndex: "0"
             }}
           />
-
           <img
             src="images/OldLogoGreen.svg"
             alt=""
@@ -92,18 +89,10 @@ class App extends Component {
             }}
           />
 
-
-
-
-
-
         </div>
-
         <div
           style={{
             width: "100%",
-
-
             backgroundColor: "#2e3440",
             textAlign: "center",
             paddingTop: "0.7em",

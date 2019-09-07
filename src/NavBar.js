@@ -7,56 +7,39 @@ class NavBar extends Component {
   render() {
     return (
       <div
-
         style={{ width: "100%", background: "transparent", boxShadow: "none", "position": "fixed", "margin": "0px 0px" }}
         color="#00ff00"
       >
         <Toolbar>
-
           <Typography variant="h6" style={{ color: "#bf616a" }}>
-
             <a href="#TopPage" className="Nav-button" style={{ color: "#bf616a" }}>
               Physoc
               </a>
           </Typography>
           <div style={{ flexGrow: "1" }} />
 
-          <Typography
-            variant="h6"
-            className="NotDisplayOnSmallScreens"
-          >
+          <Typography variant="h6" className="NotDisplayOnSmallScreens">
             <a href="#AboutUs" className="Nav-button">
               About
           </a>
           </Typography>
 
-          <Typography
-            variant="h6"
-            className="NotDisplayOnSmallScreens"
-          >
+          <Typography variant="h6" className="NotDisplayOnSmallScreens">
             <a href="#UpcomingEvents" className="Nav-button">
               Events
           </a>
           </Typography>
-          <Typography
-            variant="h6"
-            className="NotDisplayOnSmallScreens"
-          >
+          <Typography variant="h6" className="NotDisplayOnSmallScreens">
             <a href="#OurCommittee" className="Nav-button">
               Committee
           </a>
           </Typography>
 
-          <Typography
-            variant="h6"
-
-          >
+          <Typography variant="h6">
             <a href="https://www.facebook.com/guphysoc/" style={{ "color": "#6169bf" }} className="Nav-button">
               Facebook
           </a>
           </Typography>
-
-
         </Toolbar>
       </div>
     );
@@ -64,21 +47,3 @@ class NavBar extends Component {
 }
 
 export default NavBar;
-//#3b5998
-
-/*
-          <Typography
-            variant="h6"
-
-          >
-            <a href="https://www.facebook.com/guphysoc/" style={{ "color": "#6169bf" }} className="Nav-button">
-              Facebook
-          </a>
-          </Typography>
-
-
-
-            <a href="#TopPage" className="Nav-button" style={{ color: "#bf616a" }}>
-              Physoc
-              </a>
-*/

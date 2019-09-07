@@ -33,7 +33,6 @@ class AboutUs extends Component {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center"
-                        //backgroundColor: "black"
                     }}
                     className="AboutUsSmallScreen"
                 >

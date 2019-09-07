@@ -15,16 +15,12 @@ class TopPage extends Component {
                 <img
                     className="Quark"
                     src={"images/" + this.state.quarkColors[Math.round(Math.random() * 2)] + ".svg"}
-                    //width= //"80em"
                     alt=""
                     style={{
                         width: `calc(5% + ${(Math.random()) * 3}%)`,
                         top: `calc(10% + ${(Math.random()) * 80}%)`,
                         left: `calc(10% + ${(Math.random()) * 80}%)`,
                         animationDelay: `calc(-${Math.random() * 120}s)`
-                        //transform: `rotate(20deg)`
-                        //transform: `rotate(calc(${Math.round(Math.random()) * 360}deg))`
-                        //PhysocNewLogoWhiteNoText2, PhysocLogo
                     }}
                 />)
         }
@@ -47,6 +43,7 @@ class TopPage extends Component {
                         zIndex: "2"
                     }}
                 />
+
                 <img
                     src="images/NEONTGUPS2.svg"
                     alt="The Glasgow University Physics Society"

@@ -29,10 +29,6 @@ class OurCommittee extends Component {
                 <pre className="NotDisplayOnSmallScreens" style={{ "display": "inline" }}> - </pre>
                 <p className="DisplayBlockOnSmallScreens CommitteePaddingPersonSmallScreen" style={{ "display": "inline" }}>{item[1]} </p></div>)
         })
-
-        /* this.state.htmlMembers = Object.keys(this.state.members).map((key, index) => {
-             return (<div style={{ "padding": "10px 0px" }}><i>{key}</i> - <p style={{ "display": "inline" }}> {this.state.members[key]} </p></div>)
-         })*/
     }
 
     render() {
@@ -42,7 +38,6 @@ class OurCommittee extends Component {
                     {" Our Committee "}
                 </Typography>
                 <Typography variant="h5" className="CommitteeAlignCentreSmallScreen" style={{ padding: "10px 0", textAlign: "left" }}>
-
                     {this.state.htmlMembers}
                 </Typography>
             </div>

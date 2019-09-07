@@ -10,7 +10,6 @@ class EventItem extends Component {
         style={{
           margin: "2em auto",
           width: "70%",
-          //backgroundColor: "orange",
           alignItems: "center",
           justifyContent: "center",
           textAlign: "center"
