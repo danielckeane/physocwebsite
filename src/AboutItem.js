@@ -39,6 +39,7 @@ class AboutItem extends Component {
           <img
             src={this.props.img}
             width={this.props.imgWidth}
+            alt={this.props["alt"] ? this.props.alt : ""}
 
             style={
               {

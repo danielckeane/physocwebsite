@@ -36,10 +36,11 @@ class TopPage extends Component {
 
                 {this.state.quarkElements}
 
-                <img src="images/PhysocNewLogoWhiteNoText2.svg" width="35%" style={{ position: "relative", zIndex: "2" }} />
+                <img src="images/PhysocNewLogoWhiteNoText2.svg" alt="Physoc Logo" width="35%" style={{ position: "relative", zIndex: "2" }} />
 
                 <img
                     src="images/NEONPhysics3.svg"
+                    alt="Physoc"
                     style={{
                         marginBottom: "3%",
                         width: "50%",
@@ -48,6 +49,7 @@ class TopPage extends Component {
                 />
                 <img
                     src="images/NEONTGUPS2.svg"
+                    alt="The Glasgow University Physics Society"
                     className="neon"
                     style={{ marginBottom: "0px", "width": "80%", zIndex: "2" }}
                 />

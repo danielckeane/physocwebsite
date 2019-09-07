@@ -10,16 +10,16 @@ class OurCommittee extends Component {
         super(props);
         this.state = {
             members: [
-                ["President\t", "Liam Brown"],
-                ["Secretary\t", "Gediminas Glemza"],
-                ["Treasurer\t", "Terry Millen"],
+                ["President", "Andrew Quinn"],
+                ["Secretary", "Gediminas Glemza"],
+                ["Treasurer", "Elliot Bourke"],
                 ["Social Events Convenor", "Rachel park"],
-                ["Physics Events Convenor", "Elliot Bourke"],
-                ["Publicity Officer\t", "Calum Gordon"],
-                ["Librarian\t", "Philip Binner"],
-                ["Second Year Rep", "Aurys Silinga"],
+                ["Physics Events Convenor", "Philip Binner"],
+                ["Publicity Officer", "Jason Mill"],
+                ["Librarian", "XXX"],
+                ["Second Year Rep", "XXX"],
                 ["First Year Rep", "XXX"],
-                ["OCM\t", "Andrew Quinn, Noah Upton"]
+                ["OCM", "Richard Menzies, Noah Upton"]
 
             ]
         }

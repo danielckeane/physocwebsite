@@ -37,6 +37,7 @@ class App extends Component {
 
           <img
             src="images/SolarSystem.svg"
+            alt=""
             style={{
               position: "absolute",
               alignItems: "left",
@@ -51,6 +52,7 @@ class App extends Component {
 
           <img
             src="images/Tardis.svg"
+            alt=""
             style={{
               position: "absolute",
               alignItems: "left",
@@ -64,6 +66,7 @@ class App extends Component {
 
           <img
             src="images/Telescope.svg"
+            alt=""
             style={{
               position: "absolute",
               alignItems: "left",
@@ -77,6 +80,7 @@ class App extends Component {
 
           <img
             src="images/OldLogoGreen.svg"
+            alt=""
             style={{
               position: "absolute",
               alignItems: "left",

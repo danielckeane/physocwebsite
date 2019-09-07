@@ -15,19 +15,23 @@ class UpcomingEvents extends Component {
                     {" Upcoming Events "}
                 </Typography>
                 <EventItem
-                    img="images/EventMeeting.svg"
-                    date="09/01/20"
-                    title="Some Event"
-                    body="Dr XXX is giving a guest lecture on dark matter"
+                    img="images/EventFreshersFair.svg"
+                    date="17/09/19 - 18/09/19"
+                    title="Freshers Fair"
+                    body=""
                 />
-                <Typography variant="h5" style={{ padding: "3px 10px" }} className="AboutUsSmallScreen">
-                    {
-                        "We currently have no upcoming events (but it's best to check facebook, just in case)"
-                    }
-                </Typography>
+
             </div>
         )
     }
 }
 
 export default UpcomingEvents;
+
+/*
+               <Typography variant="h5" style={{ padding: "3px 10px" }} className="AboutUsSmallScreen">
+                    {
+                        "We currently have no upcoming events (but it's best to check facebook, just in case)"
+                    }
+                </Typography>
+*/

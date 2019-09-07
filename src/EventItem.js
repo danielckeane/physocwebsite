@@ -19,6 +19,7 @@ class EventItem extends Component {
       >
         <img
           src={this.props.img}
+          alt={this.props["alt"] ? this.props.alt : ""}
           width="60em"
           style={{ marginBottom: "1em" }}
         />
