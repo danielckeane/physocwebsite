@@ -1,14 +1,13 @@
 {
-  "main.css": "/PhysocWebsite/static/css/main.2c1d1411.chunk.css",
-  "main.js": "/PhysocWebsite/static/js/main.86ecaa06.chunk.js",
-  "main.js.map": "/PhysocWebsite/static/js/main.86ecaa06.chunk.js.map",
+  "main.css": "/PhysocWebsite/static/css/main.83bada7d.chunk.css",
+  "main.js": "/PhysocWebsite/static/js/main.22fa73bd.chunk.js",
+  "main.js.map": "/PhysocWebsite/static/js/main.22fa73bd.chunk.js.map",
   "runtime~main.js": "/PhysocWebsite/static/js/runtime~main.8a51f80b.js",
   "runtime~main.js.map": "/PhysocWebsite/static/js/runtime~main.8a51f80b.js.map",
-  "static/js/2.cfbe434d.chunk.js": "/PhysocWebsite/static/js/2.cfbe434d.chunk.js",
-  "static/js/2.cfbe434d.chunk.js.map": "/PhysocWebsite/static/js/2.cfbe434d.chunk.js.map",
+  "static/js/2.d604b2ca.chunk.js": "/PhysocWebsite/static/js/2.d604b2ca.chunk.js",
+  "static/js/2.d604b2ca.chunk.js.map": "/PhysocWebsite/static/js/2.d604b2ca.chunk.js.map",
   "index.html": "/PhysocWebsite/index.html",
-  "precache-manifest.63b63f88cffc5c572c7c13abb766a8af.js": "/PhysocWebsite/precache-manifest.63b63f88cffc5c572c7c13abb766a8af.js",
+  "precache-manifest.396e19135fc41ae592cb99c49161525e.js": "/PhysocWebsite/precache-manifest.396e19135fc41ae592cb99c49161525e.js",
   "service-worker.js": "/PhysocWebsite/service-worker.js",
-  "static/css/main.2c1d1411.chunk.css.map": "/PhysocWebsite/static/css/main.2c1d1411.chunk.css.map",
-  "static/media/logo.svg": "/PhysocWebsite/static/media/logo.5d5d9eef.svg"
+  "static/css/main.83bada7d.chunk.css.map": "/PhysocWebsite/static/css/main.83bada7d.chunk.css.map"
 }
