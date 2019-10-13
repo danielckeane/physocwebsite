@@ -14,12 +14,12 @@ class UpcomingEvents extends Component {
                 <Typography variant="h4" style={{ margin: "0.2em" }}>
                     {" Upcoming Events "}
                 </Typography>
-                <EventItem
-                    img="images/EventFreshersFair.svg"
-                    date="17/09/19 - 18/09/19"
-                    title="Freshers Fair"
-                    body=""
-                />
+                <Typography variant="h5" style={{ padding: "15px 10px" }} className="AboutUsSmallScreen">
+                    {
+                        "We currently have no upcoming events (but it's best to check facebook, just in case)"
+                    }
+                </Typography>
+
 
             </div>
         )
@@ -28,11 +28,18 @@ class UpcomingEvents extends Component {
 
 export default UpcomingEvents;
 
-// Use the text below when there are no upcomming events
+// Use the text below when there are no upcomming events, or the bottom one for an upcoming event
 /*
                <Typography variant="h5" style={{ padding: "3px 10px" }} className="AboutUsSmallScreen">
                     {
                         "We currently have no upcoming events (but it's best to check facebook, just in case)"
                     }
                 </Typography>
+
+                    <EventItem
+                    img="images/EventFreshersFair.svg"
+                    date="17/09/19 - 18/09/19"
+                    title="Freshers Fair"
+                    body=""
+                />
 */

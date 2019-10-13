@@ -83,7 +83,7 @@ class App extends Component {
               alignItems: "left",
               float: "left",
               left: "4%",
-              top: "360%",
+              top: "350%",
               width: "200px",
               zIndex: "0"
             }}

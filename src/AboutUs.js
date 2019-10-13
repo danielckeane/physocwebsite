@@ -57,15 +57,15 @@ class AboutUs extends Component {
                             <AboutItem
                                 img="images/EventMicrophone.svg"
                                 title="Radio Speaker"
-                                body="This is where the details go"
+                                body="We have podcasts given by various lecturers both from within and without the university"
                                 imgWidth="30px"
                             />
                         </Grid>
                         <Grid item xs={12} sm={6}>
                             <AboutItem
                                 img="images/EventSolarSystem2.svg"
-                                title="Team up with Astrosoc"
-                                body="This is where the details go"
+                                title="Team up with other societies"
+                                body="We team up with astrosoc and other societies for quiz nights, pub crawls and a variety of other events"
                                 imgWidth="50px"
                             />
                         </Grid>

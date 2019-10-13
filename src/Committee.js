@@ -16,10 +16,10 @@ class OurCommittee extends Component {
                 ["Social Events Convenor", "Rachel park"],
                 ["Physics Events Convenor", "Philip Binner"],
                 ["Publicity Officer", "Jason Mill"],
-                ["Librarian", "XXX"],
-                ["Second Year Rep", "XXX"],
-                ["First Year Rep", "XXX"],
-                ["OCM", "Richard Menzies, Noah Upton"]
+                ["Librarian", "Aurys Silinga"],
+                ["Second Year Rep", "Antonius XXX"],
+                ["First Year Rep", "Tia XXX"],
+                ["OCM", "Richard Menzies, Noah Upton, Matthew Palmer"]
 
             ]
         }
