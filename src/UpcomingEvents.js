@@ -4,7 +4,7 @@ import "./App.css";
 
 import { Typography } from "@material-ui/core";
 
-import EventItem from "./EventItem.js";
+//import EventItem from "./EventItem.js";
 
 class UpcomingEvents extends Component {
 

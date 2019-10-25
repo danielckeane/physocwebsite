@@ -33,13 +33,41 @@ class OurCommittee extends Component {
 
     render() {
         return (
-            <div className="App-content" style={{ backgroundColor: "#3b4252" }} id="OurCommittee">
+            <div className="App-content" style={{ backgroundColor: "#3b4252", position: "relative" }} id="OurCommittee">
                 <Typography variant="h4" style={{ margin: "0.2em" }}>
                     {" Our Committee "}
                 </Typography>
                 <Typography variant="h5" className="CommitteeAlignCentreSmallScreen" style={{ padding: "10px 0", textAlign: "left" }}>
                     {this.state.htmlMembers}
                 </Typography>
+                <img
+                    src="images/Telescope.svg"
+                    alt=""
+                    style={{
+                        position: "absolute",
+                        alignItems: "left",
+                        float: "left",
+                        right: "7em",
+                        top: "10%",
+                        width: "120px",
+                        zIndex: "0"
+                    }}
+                />
+
+                <img
+                    src="images/OldLogoGreen.svg"
+                    alt=""
+                    style={{
+                        position: "absolute",
+                        alignItems: "left",
+                        float: "left",
+                        left: "4%",
+                        bottom: "10%",
+                        width: "200px",
+                        zIndex: "0"
+                    }}
+                />
+
             </div>
         )
     }
