@@ -1,13 +1,13 @@
 {
-  "main.css": "./static/css/main.cb5c138b.chunk.css",
-  "main.js": "./static/js/main.8a9b6f64.chunk.js",
-  "main.js.map": "./static/js/main.8a9b6f64.chunk.js.map",
-  "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
-  "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
-  "static/js/2.66887877.chunk.js": "./static/js/2.66887877.chunk.js",
-  "static/js/2.66887877.chunk.js.map": "./static/js/2.66887877.chunk.js.map",
-  "index.html": "./index.html",
-  "precache-manifest.85d0e32f76d45ae3b4ceefa5f4c76c39.js": "./precache-manifest.85d0e32f76d45ae3b4ceefa5f4c76c39.js",
-  "service-worker.js": "./service-worker.js",
-  "static/css/main.cb5c138b.chunk.css.map": "./static/css/main.cb5c138b.chunk.css.map"
+  "main.css": "/PhysocWebsite/static/css/main.cb5c138b.chunk.css",
+  "main.js": "/PhysocWebsite/static/js/main.4611523a.chunk.js",
+  "main.js.map": "/PhysocWebsite/static/js/main.4611523a.chunk.js.map",
+  "runtime~main.js": "/PhysocWebsite/static/js/runtime~main.8a51f80b.js",
+  "runtime~main.js.map": "/PhysocWebsite/static/js/runtime~main.8a51f80b.js.map",
+  "static/js/2.66887877.chunk.js": "/PhysocWebsite/static/js/2.66887877.chunk.js",
+  "static/js/2.66887877.chunk.js.map": "/PhysocWebsite/static/js/2.66887877.chunk.js.map",
+  "index.html": "/PhysocWebsite/index.html",
+  "precache-manifest.3f5075dd2c1e2812d0c01a512b76817c.js": "/PhysocWebsite/precache-manifest.3f5075dd2c1e2812d0c01a512b76817c.js",
+  "service-worker.js": "/PhysocWebsite/service-worker.js",
+  "static/css/main.cb5c138b.chunk.css.map": "/PhysocWebsite/static/css/main.cb5c138b.chunk.css.map"
 }
