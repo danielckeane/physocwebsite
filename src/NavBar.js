@@ -10,7 +10,7 @@ class NavBar extends Component {
         style={{ width: "100%", background: "transparent", boxShadow: "none", "position": "fixed", "margin": "0px 0px" }}
         color="#00ff00"
       >
-        <Toolbar>
+        <Toolbar className="Nav-bar">
           <Typography variant="h6" style={{ color: "#bf616a" }}>
             <a href="#TopPage" className="Nav-button" style={{ color: "#bf616a" }}>
               Physoc
@@ -41,7 +41,7 @@ class NavBar extends Component {
           </a>
           </Typography>
         </Toolbar>
-      </div>
+      </div >
     );
   }
 }

@@ -2,7 +2,7 @@
   "name": "physoc-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://WizardOhio24.github.com/PhysocWebsite/",
+  "homepage": ".",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "gh-pages": "^2.1.1",

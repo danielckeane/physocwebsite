@@ -17,9 +17,9 @@ class OurCommittee extends Component {
                 ["Physics Events Convenor", "Philip Binner"],
                 ["Publicity Officer", "Jason Mill"],
                 ["Librarian", "Aurys Silinga"],
-                ["Second Year Rep", "Antonius XXX"],
-                ["First Year Rep", "Tia XXX"],
-                ["OCM", "Richard Menzies, Noah Upton, Matthew Palmer"]
+                ["Second Year Rep", ""],
+                ["First Year Rep", "Christiane Mayer"],
+                ["OCM", "Richard Menzies(Webmaster), Matthew Palmer"]
 
             ]
         }
