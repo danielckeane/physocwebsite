@@ -23,7 +23,7 @@ class ContactUs extends Component {
                     
                 </Typography>
 
-                <Typography variant="h5" style={{ padding: "15px 10px", margin: "0 20%" }} className="AboutUsSmallScreen">
+                <Typography variant="h6" style={{ padding: "15px 10px", margin: "0 20%" }} className="AboutUsSmallScreen">
                     {
                         "We're also in the library between 12:00 - 14:00 every weekday during term time, so you can come find us there as well."
                     }
