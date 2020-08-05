@@ -39,11 +39,7 @@ class NavBar extends Component {
               Sponsors
           </a>
           </Typography>
-          <Typography variant="h6" className="NotDisplayOnSmallScreens">
-            <a href="#OurCommittee" className="Nav-button">
-              Committee
-          </a>
-          </Typography>
+
 
           <Typography variant="h6">
             <a href="https://www.facebook.com/guphysoc/" style={{ "color": "#6169bf" }} className="Nav-button">
@@ -57,3 +53,10 @@ class NavBar extends Component {
 }
 
 export default NavBar;
+/*
+          <Typography variant="h6" className="NotDisplayOnSmallScreens">
+            <a href="#OurCommittee" className="Nav-button">
+              Committee
+          </a>
+          </Typography>
+*/
