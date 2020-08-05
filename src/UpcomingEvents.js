@@ -4,7 +4,7 @@ import "./App.css";
 
 import { Typography } from "@material-ui/core";
 
-//import EventItem from "./EventItem.js";
+import EventItem from "./EventItem.js";
 
 class UpcomingEvents extends Component {
 
@@ -14,11 +14,12 @@ class UpcomingEvents extends Component {
                 <Typography variant="h4" style={{ margin: "0.2em" }}>
                     {" Upcoming Events "}
                 </Typography>
-                <Typography variant="h5" style={{ padding: "15px 10px" }} className="AboutUsSmallScreen">
-                    {
-                        "We currently have no upcoming events (but it's best to check facebook, just in case)"
-                    }
-                </Typography>
+                <EventItem
+                    img="images/EventBeer.svg"
+                    date="??/??/2020"
+                    title="Annual General Meeting"
+                    body="We're having our AGM at some point during the next semester, come along if you want to get more involved and have your say on how the GU Physics Society is run. We have a number of places to fill, so either check here or our facebook for updates."
+                />
 
 
             </div>
