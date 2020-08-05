@@ -8,6 +8,8 @@ import TopPage from "./TopPage.js";
 import AboutUs from "./AboutUs.js";
 import UpcomingEvents from "./UpcomingEvents.js";
 import OurCommittee from "./Committee.js";
+import Sponsors from "./Sponsors.js";
+import ContactUs from "./ContactUs.js";
 
 const theme = createMuiTheme({
   palette: {
@@ -33,6 +35,8 @@ class App extends Component {
           <TopPage />
           <AboutUs />
           <UpcomingEvents />
+          <ContactUs />
+          <Sponsors />
           <OurCommittee />
 
           <img

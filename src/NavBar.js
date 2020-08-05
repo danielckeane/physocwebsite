@@ -30,6 +30,16 @@ class NavBar extends Component {
           </a>
           </Typography>
           <Typography variant="h6" className="NotDisplayOnSmallScreens">
+            <a href="#ContactUs" className="Nav-button">
+              Contact Us
+          </a>
+          </Typography>
+          <Typography variant="h6" className="NotDisplayOnSmallScreens">
+            <a href="#Sponsors" className="Nav-button">
+              Sponsors
+          </a>
+          </Typography>
+          <Typography variant="h6" className="NotDisplayOnSmallScreens">
             <a href="#OurCommittee" className="Nav-button">
               Committee
           </a>

@@ -32,7 +32,40 @@ class TopPage extends Component {
 
                 {this.state.quarkElements}
 
-                <img src="images/PhysocNewLogoWhiteNoText2.svg" alt="Physoc Logo" width="35%" style={{ position: "relative", zIndex: "2" }} />
+                <img src="images/RedQuark3.svg" alt="Physoc Logo" width="20%" style={{ position: "relative", zIndex: "2", marginTop: "80px" }} />
+
+                <img
+                    src="images/NEONPhysics3.svg"
+                    alt="Physoc"
+                    style={{
+                        marginBottom: "1%",
+                        width: "50%",
+                        zIndex: "2"
+                    }}
+                />
+
+                <img
+                    src="images/NEONTGUPS2.svg"
+                    alt="The Glasgow University Physics Society"
+                    className="neon"
+                    style={{ marginBottom: "0px", "width": "80%", zIndex: "2" }}
+                />
+            </header>
+        )
+    }
+}
+
+export default TopPage;
+
+//<img src="images/PhysocNewLogoWhiteNoText2.svg" alt="Physoc Logo" width="35%" style={{ position: "relative", zIndex: "2" }} />
+/*
+
+        return (
+            <header className="App-header" id="TopPage">
+
+                {this.state.quarkElements}
+
+                <img src="images/RedQuark3.svg" alt="Physoc Logo" width="20%" style={{ position: "relative", zIndex: "2", marginTop: "50px" }} />
 
                 <img
                     src="images/NEONPhysics3.svg"
@@ -52,7 +85,4 @@ class TopPage extends Component {
                 />
             </header>
         )
-    }
-}
-
-export default TopPage;
+*/

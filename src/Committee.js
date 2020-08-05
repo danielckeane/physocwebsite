@@ -4,22 +4,24 @@ import "./App.css";
 
 import { Typography } from "@material-ui/core";
 
+//style={{ backgroundColor: "#2e3440" }}
+//backgroundColor: "#2e3440",
 class OurCommittee extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
             members: [
-                ["President", "Andrew Quinn"],
+                ["President", ""],
                 ["Secretary", "Gediminas Glemza"],
-                ["Treasurer", "Elliot Bourke"],
-                ["Social Events Convenor", "Rachel park"],
-                ["Physics Events Convenor", "Philip Binner"],
-                ["Publicity Officer", "Jason Mill"],
+                ["Treasurer", ""],
+                ["Social Events Convenor", ""],
+                ["Physics Events Convenor", ""],
+                ["Publicity Officer", ""],
                 ["Librarian", "Aurys Silinga"],
                 ["Second Year Rep", ""],
                 ["First Year Rep", "Christiane Mayer"],
-                ["OCM", "Richard Menzies(Webmaster), Matthew Palmer"]
+                ["OCM", "Richard Menzies(Webmaster)"]
 
             ]
         }
@@ -33,7 +35,7 @@ class OurCommittee extends Component {
 
     render() {
         return (
-            <div className="App-content" style={{ backgroundColor: "#3b4252", position: "relative" }} id="OurCommittee">
+            <div className="App-content" style={{  position: "relative" }} id="OurCommittee">
                 <Typography variant="h4" style={{ margin: "0.2em" }}>
                     {" Our Committee "}
                 </Typography>
@@ -74,3 +76,18 @@ class OurCommittee extends Component {
 }
 
 export default OurCommittee;
+/* 2019/2020
+            members: [
+                ["President", "Andrew Quinn"],
+                ["Secretary", "Gediminas Glemza"],
+                ["Treasurer", "Elliot Bourke"],
+                ["Social Events Convenor", "Rachel park"],
+                ["Physics Events Convenor", "Philip Binner"],
+                ["Publicity Officer", "Jason Mill"],
+                ["Librarian", "Aurys Silinga"],
+                ["Second Year Rep", ""],
+                ["First Year Rep", "Christiane Mayer"],
+                ["OCM", "Richard Menzies(Webmaster), Matthew Palmer"]
+
+            ]
+*/
