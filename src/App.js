@@ -10,6 +10,7 @@ import UpcomingEvents from "./UpcomingEvents.js";
 import OurCommittee from "./Committee.js";
 import Sponsors from "./Sponsors.js";
 import ContactUs from "./ContactUs.js";
+import AffiliatedWith from "./AffiliatedWith.js";
 
 const theme = createMuiTheme({
   palette: {
@@ -71,7 +72,7 @@ class App extends Component {
         <div
           style={{
             width: "100%",
-            backgroundColor: "#2e3440",
+            backgroundColor: "#3b4252", //"#2e3440",
             textAlign: "center",
             paddingTop: "0.7em",
             paddingBottom: "0.7em"
@@ -88,11 +89,21 @@ class App extends Component {
           >
             You've reached the end, or, as any good physicist knows, you've only
             just found the beginning.
+
           </Typography>
+          <img
+                src={"images/SponsorsIOP.svg"}
+                alt={""}
+                width="200em"
+                style={{ marginTop: "2em", paddingTop: "0em" }}
+                />
+
         </div>
+
+      
       </MuiThemeProvider>
     );
   }
 }
-
+ // <AffiliatedWith />
 export default App;

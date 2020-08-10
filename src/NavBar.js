@@ -42,6 +42,12 @@ class NavBar extends Component {
 
 
           <Typography variant="h6">
+            <a href="http://www.iop.org/" style={{ "color": "#bf616a" }} className="Nav-button">
+            IOP
+          </a>
+          </Typography>
+
+          <Typography variant="h6">
             <a href="https://www.facebook.com/guphysoc/" style={{ "color": "#6169bf" }} className="Nav-button">
               Facebook
           </a>

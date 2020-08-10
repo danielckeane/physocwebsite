@@ -14,23 +14,30 @@ class Sponsors extends Component {
                 <div
                     style={{
                         margin: "1em 10em",
-                        width: "60%",
+                        width: "65%",
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center"
                     }}
                     className="AboutUsSmallScreen"
                 >
-                    <img
-                        src={"images/SponsorsIOP.svg"}
-                        alt={""}
-                        width="170em"
-                        style={{ marginBottom: "0em" }}
-                        />
+                <Typography variant="h6" style={{  margin: "0 0%" }} className="AboutUsSmallScreen">
+                    {
+                        "We're currently looking for sponsors!  Feel free to use the above email if you're interested."
+                    }
+                    </Typography>
+                    
                 </div>
             </div>
         )
     }
 }
+
+/* <img
+src={"images/SponsorsIOP.svg"}
+alt={""}
+width="170em"
+style={{ marginBottom: "0em" }}
+/>*/
 
 export default Sponsors;
