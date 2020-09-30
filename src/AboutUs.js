@@ -20,7 +20,7 @@ class AboutUs extends Component {
                     style={{ padding: "20px 18%", zIndex: "2", "textAlign": "justify" }}
                 >
                     {
-                        "Hello there! We're Physoc, the Glasgow University physics society.  We have a library which, though not as big as the university's library, still has a fair number of good books.  We also have a common room where we sometimes hold events."
+                        "Hello there! We're Physoc, the Glasgow University physics society.  We have a library (Kelvin Bulding, room 332) which, though not as big as the university's library, still has a fair number of good books.  We also have a common room where we sometimes hold events."
                     }
                 </Typography>
                 <Typography variant="h6" style={{ margin: "0.2em" }}>

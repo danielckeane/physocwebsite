@@ -25,7 +25,7 @@ class ContactUs extends Component {
 
                 <Typography variant="h6" style={{ padding: "15px 10px", margin: "0 20%" }} className="AboutUsSmallScreen">
                     {
-                        "We're also in the kelvin building student library between 12:00 - 14:00 every weekday during term time, so you can come find us there as well."
+                        "We're also in the kelvin building student library (room 332) between 12:00 - 14:00 every weekday during term time, so you can come find us there as well (currently the opperation of the student library has been suspended due the pandemic)."
                     }
                 </Typography>
 

@@ -1,4 +1,3 @@
-
 import React, { Component } from "react";
 import "./App.css";
 
@@ -7,24 +6,33 @@ import { Typography } from "@material-ui/core";
 import EventItem from "./EventItem.js";
 
 class UpcomingEvents extends Component {
-
-    render() {
-        return (
-            <div className="App-content" style={{ backgroundColor: "#2e3440" }} id="UpcomingEvents">
-                <Typography variant="h4" style={{ margin: "0.2em" }}>
-                    {" Upcoming Events "}
-                </Typography>
-                <EventItem
-                    img="images/EventBeer.svg"
-                    date="??/??/2020"
-                    title="Annual General Meeting"
-                    body="We're having our AGM at some point during the next semester, come along if you want to get more involved and have your say on how the GU Physics Society is run. We have a number of places to fill, so either check here or our facebook for updates."
-                />
-
-
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div
+        className="App-content"
+        style={{ backgroundColor: "#2e3440" }}
+        id="UpcomingEvents"
+      >
+        <Typography variant="h4" style={{ margin: "0.2em" }}>
+          {" Upcoming Events "}
+        </Typography>
+        <EventItem
+          img="images/EventBeer.svg"
+          date="18/09/2020 | 18:00"
+          title="Quiz Night"
+          body={
+            "We're having a Virtual Pub Quiz with Astrosoc!  Come and test your knowlage against people your fellow physicists and astronomers: Sign up here: \n \n https://forms.gle/LQPYLG1tgLWVcp2J6"
+          }
+        />
+        <EventItem
+          img="images/EventSolarSystem.svg"
+          date="30/09/2020"
+          title="Annual General Meeting"
+          body="We're having our AGM at some point during the next semester, come along if you want to get more involved and have your say on how the GU Physics Society is run. We have a number of places to fill, so either check here or our facebook for updates."
+        />
+      </div>
+    );
+  }
 }
 
 export default UpcomingEvents;
