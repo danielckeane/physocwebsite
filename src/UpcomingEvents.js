@@ -17,16 +17,8 @@ class UpcomingEvents extends Component {
           {" Upcoming Events "}
         </Typography>
         <EventItem
-          img="images/EventBeer.svg"
-          date="18/09/2020 | 18:00"
-          title="Quiz Night"
-          body={
-            "We're having a Virtual Pub Quiz with Astrosoc!  Come and test your knowlage against people your fellow physicists and astronomers: Sign up here: \n \n https://forms.gle/LQPYLG1tgLWVcp2J6"
-          }
-        />
-        <EventItem
           img="images/EventSolarSystem.svg"
-          date="30/09/2020"
+          date="07/10/2020"
           title="Annual General Meeting"
           body="We're having our AGM at some point during the next semester, come along if you want to get more involved and have your say on how the GU Physics Society is run. We have a number of places to fill, so either check here or our facebook for updates."
         />
