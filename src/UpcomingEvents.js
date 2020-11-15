@@ -18,9 +18,16 @@ class UpcomingEvents extends Component {
         </Typography>
         <EventItem
           img="images/EventSolarSystem.svg"
-          date="07/10/2020"
+          date="16/11/2020 | 18:00"
           title="Annual General Meeting"
-          body="We're having our AGM at some point during the next semester, come along if you want to get more involved and have your say on how the GU Physics Society is run. We have a number of places to fill, so either check here or our facebook for updates."
+          body="We're having our next AGM soon, come along if you want to get more involved and have your say on how the GU Physics Society is run. We have a number of places to fill, so either check here or our facebook for updates."
+        />
+
+        <EventItem
+          img="images/EventSolarSystem.svg"
+          date="16/11/2020 | 19:00"
+          title="Physoc Games Night"
+          body="After our AGM we're having a games night.  Come along to play Among Us and Jackbox with you fellow physicist."
         />
       </div>
     );
