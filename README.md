@@ -1,4 +1,4 @@
-<p align="center"><img src="public/images/Physoc2019Logo.png" alt="NEON Physics Logo" width="500" height="345"></p>
+<p align="center"><img src="public/images/PhysocReadmePoster.png" alt="NEON Physics Logo" width="500"></p>
 
 <!--<h1 align="center">Physoc</h1>
 <div align="center">
