@@ -16,12 +16,11 @@ class UpcomingEvents extends Component {
         <Typography variant="h4" style={{ margin: "0.2em" }}>
           {" Upcoming Events "}
         </Typography>
-        <EventItem
-          img="images/EventSolarSystem.svg"
-          date="19/12/2020 | ??"
-          title="Kitchen Experiments"
-          body="Ever been interested in doing your own experiments, at home, with reasonable equipment?  We're running an event directly for this!  Come along if you want have some fun making your own Physics experiments at home."
-        />
+        <Typography variant="h5" style={{ padding: "3px 10px" }} className="AboutUsSmallScreen">
+          {
+            "We currently have no upcoming events (but it's best to check facebook, just in case)"
+          }
+        </Typography>
       </div>
     );
   }
