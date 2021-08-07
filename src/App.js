@@ -37,6 +37,7 @@ class App extends Component {
           <AboutUs />
           <UpcomingEvents />
           <ContactUs />
+          <OurCommittee />
           <Sponsors />
           
 

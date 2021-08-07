@@ -1,11 +1,9 @@
-
-html{
+html {
   scroll-behavior: smooth;
 }
 
 .App {
   text-align: center;
-  
 }
 
 .App-logo {
@@ -130,7 +128,6 @@ html{
   }
 }
 
-
 /*Not used*/
 @keyframes App-particle-spin {
   0% {
@@ -158,23 +155,37 @@ html{
   animation: App-particle-spin 2s linear;
 }
 
-.Nav-bar{
-z-index: 10;
+.Nav-bar {
+  z-index: 10;
 }
 
-.Nav-button{
-  color: #ffffff; 
+.Nav-button {
+  color: #ffffff;
   margin: 0 10px;
   text-decoration: none;
   z-index: 100;
 }
 
-.Nav-button:hover{
-  color: #dddddd; 
+.Nav-button:hover {
+  color: #dddddd;
+}
+
+.CommitteeList {
+  padding: 10px 0px 10px 150px;
+  text-align: left;
+}
+
+.CommitteeListTitle {
+  display: inline-block;
+  width: 320px;
+  text-align: left;
+}
+
+#OurCommittee {
+  margin-top: -2em;
 }
 
 @media screen and (max-width: 600px) {
-
   .App-content {
     background-color: #3b4252;
     padding: 40px 30px;
@@ -186,31 +197,32 @@ z-index: 10;
   }
 
   .NotDisplayOnSmallScreens {
-      display: none !important;
+    display: none !important;
   }
-  
 
   .DisplayBlockOnSmallScreens {
     display: block !important;
     float: none !important;
     width: 100% !important;
   }
-  
-  
 
   .AboutUsSmallScreen {
     width: 100% !important;
     font-size: 14pt !important;
     padding: 20px 20px !important;
   }
-  
+
+  .SponsorUsSmallScreen {
+    width: 100% !important;
+    font-size: 14pt !important;
+    padding: 20px 0px !important;
+  }
 
   .UpcomingEventSmallScreen {
     width: 100% !important;
     font-size: 12pt !important;
     padding: 0px 0px !important;
   }
-  
 
   .UpcomingEventItemWidthSmallScreen {
     width: 100% !important;
@@ -230,6 +242,14 @@ z-index: 10;
   .CommitteeAlignCentreSmallScreen {
     text-align: center !important;
   }
-  
 
+  .CommitteeList {
+    padding: "10px 0px 10px 0px";
+    text-align: "left";
+    padding: 0;
+  }
+
+  .CommitteeListTitle {
+    text-align: center;
+  }
 }

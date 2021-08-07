@@ -21,7 +21,7 @@ class Sponsors extends Component {
                     }}
                     className="AboutUsSmallScreen"
                 >
-                <Typography variant="h6" style={{  margin: "0 0%" }} className="AboutUsSmallScreen">
+                <Typography variant="h6" style={{  margin: "0 0%" }} className="SponsorUsSmallScreen">
                     {
                         "We're currently looking for sponsors!  Feel free to use the above email if you're interested."
                     }

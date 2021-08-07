@@ -12,24 +12,24 @@ class OurCommittee extends Component {
         super(props);
         this.state = {
             members: [
-                ["President", ""],
-                ["Secretary", "Gediminas Glemza"],
-                ["Treasurer", ""],
-                ["Social Events Convenor", ""],
-                ["Physics Events Convenor", ""],
-                ["Publicity Officer", ""],
-                ["Librarian", "Aurys Silinga"],
-                ["Second Year Rep", ""],
-                ["First Year Rep", "Christiane Mayer"],
-                ["OCM", "Richard Menzies(Webmaster)"]
+                ["President", "Lewis Grimmer"],
+                ["Secretary", "Richard Menzies (also webmaster)"],
+                ["Treasurer", "Yara Bakour"],
+                ["Social Events Convenor", "Frances Berslin"],
+                ["Physics Events Convenor", "x"],
+                ["Publicity Officer", "x"],
+                ["Librarian", "Christine Mayer"],
+                ["Second Year Rep", "Lucy Joyce"],
+                //["First Year Rep", ""],
+                ["OCM", "Conor Lyons | Agrim Jain | x"]
 
             ]
         }
 
         this.state.htmlMembers = this.state.members.map((item) => {
-            return (<div className="CommitteePaddingHeadingSmallScreen" style={{ "padding": "10px 0px" }}><i>{item[0]}</i>
-                <pre className="NotDisplayOnSmallScreens" style={{ "display": "inline" }}> - </pre>
-                <p className="DisplayBlockOnSmallScreens CommitteePaddingPersonSmallScreen" style={{ "display": "inline" }}>{item[1]} </p></div>)
+            return (<div className="CommitteePaddingHeadingSmallScreen CommitteeAlignCentreSmallScreen" style={{ "padding": "10px 0px", "margin": 0, "textAlign": "left"}}>
+                <i className="CommitteeListTitle">{item[0]}</i>
+                <p className="DisplayBlockOnSmallScreens CommitteePaddingPersonSmallScreen CommitteeAlignCentreSmallScreen" style={{ "display": "inline","textAlign": "right" }}>{item[1]} </p></div>)
         })
     }
 
@@ -39,7 +39,7 @@ class OurCommittee extends Component {
                 <Typography variant="h4" style={{ margin: "0.2em" }}>
                     {" Our Committee "}
                 </Typography>
-                <Typography variant="h5" className="CommitteeAlignCentreSmallScreen" style={{ padding: "10px 0", textAlign: "left" }}>
+                <Typography variant="h5" className="CommitteeAlignCentreSmallScreen CommitteeList">
                     {this.state.htmlMembers}
                 </Typography>
                 <img
@@ -52,7 +52,7 @@ class OurCommittee extends Component {
                         right: "7em",
                         top: "10%",
                         width: "120px",
-                        zIndex: "0"
+                        zIndex: "-1"
                     }}
                 />
 
@@ -66,7 +66,7 @@ class OurCommittee extends Component {
                         left: "4%",
                         bottom: "10%",
                         width: "200px",
-                        zIndex: "0"
+                        zIndex: "-1"
                     }}
                 />
 
