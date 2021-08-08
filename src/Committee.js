@@ -19,7 +19,7 @@ class OurCommittee extends Component {
                 ["Physics Events Convenor", "x"],
                 ["Publicity Officer", "x"],
                 ["Librarian", "Christine Mayer"],
-                ["Second Year Rep", "Lucy Joyce"],
+                ["Second Year Rep", "Lucy Joyce (also IOP liaison officer)"],
                 //["First Year Rep", ""],
                 ["OCM", "Conor Lyons | Agrim Jain | x"]
 
