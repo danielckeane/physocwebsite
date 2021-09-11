@@ -20,6 +20,7 @@ class OurCommittee extends Component {
                 ["Publicity Officer", "x"],
                 ["Librarian", "Christine Mayer"],
                 ["Second Year Rep", "Lucy Joyce (also IOP liaison officer)"],
+                ["First Year Rep", "x"],
                 //["First Year Rep", ""],
                 ["OCM", "Conor Lyons | Agrim Jain | x"]
 
