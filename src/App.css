@@ -28,7 +28,8 @@ html {
 }
 
 .App-content {
-  background-color: #3b4252;
+  /*background-color: #3b4252;  background-color: #282c34;   #2e3440   #2d323d  111318  c47474  661f1f 722727 */
+  background-color: #3b4252; /*353b49;*/
   padding: 4em 3em;
   color: #ecefe4;
   display: flex;
@@ -183,6 +184,14 @@ html {
 
 #OurCommittee {
   margin-top: -2em;
+}
+
+.titleTextFont {
+  font-family: "Merriweather"; /*"Racing Sans One";*/
+  /*font-size: 54px;*/
+  /*font-size: 3.2rem;*/
+  font-size: 2.8rem;
+  color: #f24f3a;
 }
 
 @media screen and (max-width: 600px) {

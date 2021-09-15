@@ -5,7 +5,7 @@ import "./App.css";
 import { Typography } from "@material-ui/core";
 
 //style={{ backgroundColor: "#2e3440" }}
-//backgroundColor: "#2e3440",
+//backgroundColor: "#2e3440", fontSize: 2.5rem
 class OurCommittee extends Component {
 
     constructor(props) {
@@ -36,8 +36,8 @@ class OurCommittee extends Component {
 
     render() {
         return (
-            <div className="App-content" style={{  position: "relative" }} id="OurCommittee">
-                <Typography variant="h4" style={{ margin: "0.2em" }}>
+            <div className="App-content" style={{  position: "relative", backgroundColor: "#2e3440"  }} id="OurCommittee">
+                <Typography variant="h4" style={{ margin: "0.2em", marginBottom: "1em"}} class="titleTextFont">
                     {" Our Committee "}
                 </Typography>
                 <Typography variant="h5" className="CommitteeAlignCentreSmallScreen CommitteeList">

@@ -26,6 +26,7 @@ const theme = createMuiTheme({
   }
 });
 //<OurCommittee />
+/*<Sponsors />*/
 class App extends Component {
 
   render() {
@@ -38,8 +39,6 @@ class App extends Component {
           <UpcomingEvents />
           <ContactUs />
           <OurCommittee />
-          <Sponsors />
-          
 
           <img
             src="images/SolarSystem.svg"

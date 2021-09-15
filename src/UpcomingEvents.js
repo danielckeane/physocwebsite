@@ -4,7 +4,7 @@ import "./App.css";
 import { Typography } from "@material-ui/core";
 
 import EventItem from "./EventItem.js";
-
+/* fontSize: 45px */
 class UpcomingEvents extends Component {
   render() {
     return (
@@ -13,7 +13,7 @@ class UpcomingEvents extends Component {
         style={{ backgroundColor: "#2e3440" }}
         id="UpcomingEvents"
       >
-        <Typography variant="h4" style={{ margin: "0.2em" }}>
+        <Typography variant="h4" style={{ margin: "0.2em" }} class="titleTextFont">
           {" Upcoming Events "}
         </Typography>
         <a href="https://www.facebook.com/events/4051632341613682" style={{textDecoration: "none", color: "#ecefe4"}}>

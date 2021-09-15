@@ -11,7 +11,7 @@ class ContactUs extends Component {
     render() {
         return (
             <div className="App-content" style={{  }} id="ContactUs">
-                <Typography variant="h4" style={{ margin: "0.2em" }}>
+                <Typography variant="h4" style={{ margin: "0.2em" }} class="titleTextFont">
                     {" Contact Us "}
                 </Typography>
                 <Typography variant="h5" style={{ padding: "15px 10px",  color: "#bf616a" }} className="AboutUsSmallScreen">

@@ -9,17 +9,19 @@ import AboutItem from "./AboutItem.js";
 /* 2d6ec4ff  #5a8ed1ff 
                         "We're Physoc, the Glasgow University physics society.  We have a library (Kelvin Bulding, room 332) which, though not as big as the university's library, still has a fair number of good books.  We also have a common room where we sometimes hold events."
 */
+                /* f7d9cf  f4a086  ea572a  f24f3a Monoton*/
 class AboutUs extends Component {
 
     render() {
         return (
             <div className="App-content" id="AboutUs">
-                <Typography variant="h4" style={{ zIndex: "2" }}>{" About Us "}</Typography>
+
+                <Typography variant="h4" style={{ zIndex: "2", margin: "0.2em"  }} class="titleTextFont">{" About Us "}</Typography>
                 <Typography
                     variant="h5"
                     color="text"
                     className="AboutUsSmallScreen"
-                    style={{ padding: "20px 18% 5px 18%", zIndex: "2", "textAlign": "justify" }}
+                    style={{ padding: "15px 18% 0px 18%", zIndex: "2", "textAlign": "justify", lineHeight: "1.25" }}
                 >
                     {
                         "GU Physoc is dedicated to bringing together fellow physics enthusiasts from across all walks of university life for the celebration and promotion of physics. Whether you are a physics student or just a science enthusiast, GU Physoc is open to all."
@@ -29,7 +31,7 @@ class AboutUs extends Component {
                     variant="h5"
                     color="text"
                     className="AboutUsSmallScreen"
-                    style={{ padding: "5px 18% 20px 18%", zIndex: "2", "textAlign": "justify", display: "inline" }}
+                    style={{ padding: "5px 18% 20px 18%", zIndex: "2", "textAlign": "justify", display: "inline", lineHeight: "1.25" }}
                 >
                     {
                 "Sign up to GU Physoc to enjoy socials such as our Pub Quiz, Pub & Subcrawls, and ceilidhs, academic events like guest lectures by some of the UK's top physicists, EGM & AGMs to let your voice be heard in relation to our society, and gain access to the Kelvin building student library (Room 332) which includes many of the course textbooks for all Physics levels."
@@ -54,7 +56,7 @@ class AboutUs extends Component {
                     </a>  
                 </Typography>
                 
-                <Typography variant="h6" style={{ margin: "0.2em" }}>
+                <Typography variant="h6" style={{ margin: "0.2em", fontFamily: "Merriweather", color:"#f24f3a", fontSize: "2rem", fontWeight: "Bold" }}>
                     {" Our Events "}
                 </Typography>
                 <div

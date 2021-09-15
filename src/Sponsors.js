@@ -10,7 +10,7 @@ class Sponsors extends Component {
     render() {
         return (
             <div className="App-content" style={{ backgroundColor: "#2e3440" }} id="Sponsors">
-                <Typography variant="h4" style={{ zIndex: "2", marginBottom: "1em" }}>{" Sponsors "}</Typography>
+                <Typography variant="h4" style={{ zIndex: "2", margin: "0", marginBottom: "1em" }} class="titleTextFont">{" Sponsors "}</Typography>
                 <div
                     style={{
                         margin: "1em 10em",
