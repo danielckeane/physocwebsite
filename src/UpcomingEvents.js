@@ -16,11 +16,19 @@ class UpcomingEvents extends Component {
         <Typography variant="h4" style={{ margin: "0.2em" }}>
           {" Upcoming Events "}
         </Typography>
+        <a href="https://www.facebook.com/events/4051632341613682" style={{textDecoration: "none", color: "#ecefe4"}}>
         <EventItem
                     img="images/EventBeer.svg"
                     date="17/09/19 | 21:00"
                     title="Pub Quiz"
-                    body="We'll be having out annual pub quiz with Astrosoc on Friday, come along to meet fellow physists and astronomers and test your trivia knowledge"
+                    body="We'll be having out (Virtual) annual pub quiz with Astrosoc on Friday, come along to meet fellow physists and astronomers and test your trivia knowledge. Find the zoom link and more info on our facebook"
+                />
+                </a>
+                        <EventItem
+                    img="images/RedQuark3.svg"
+                    date="23/09/19 | 18:00"
+                    title="EGM"
+                    body="We'll be having an extraordinery general meeting on Wednesday 23rd September.  Come along to have your say in how the club is run or if you want to run for a position on the committee. Currently available positions are OCM, First Year Rep and Publisist.  Zoom link will be sent to members by email"
                 />
       </div>
     );
