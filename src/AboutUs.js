@@ -6,13 +6,13 @@ import { Typography } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 
 import AboutItem from "./AboutItem.js";
-
+/* 2d6ec4ff  #5a8ed1ff */
 class AboutUs extends Component {
 
     render() {
         return (
             <div className="App-content" id="AboutUs">
-                <Typography variant="h4" style={{ zIndex: "2" }}>{" About us "}</Typography>
+                <Typography variant="h4" style={{ zIndex: "2" }}>{" About Us "}</Typography>
                 <Typography
                     variant="h5"
                     color="text"
@@ -20,9 +20,27 @@ class AboutUs extends Component {
                     style={{ padding: "20px 18%", zIndex: "2", "textAlign": "justify" }}
                 >
                     {
-                        "Hello there! We're Physoc, the Glasgow University physics society.  We have a library (Kelvin Bulding, room 332) which, though not as big as the university's library, still has a fair number of good books.  We also have a common room where we sometimes hold events."
+                        "We're Physoc, the Glasgow University physics society.  We have a library (Kelvin Bulding, room 332) which, though not as big as the university's library, still has a fair number of good books.  We also have a common room where we sometimes hold events."
                     }
                 </Typography>
+                <Typography
+                    variant="h5"
+                    color="text"
+                    className="AboutUsSmallScreen"
+                    style={{ padding: "5px 18% 20px 18%", zIndex: "2", "textAlign": "justify" }}
+                >
+                    {
+                        "Sign Up Free: "
+                    }
+
+                    <a className="AboutUsSmallScreen" href="https://forms.gle/dMmRWJFJqfraEeN16 " style={{textDecoration: "none",}}>
+                    <Typography variant="h5"
+                    color="text"
+                    style={{display: "inline", textDecoration: "none", color: "#3479d6ff", textDecorationColor: "transparent"}}>
+                        https://forms.gle/dMmRWJFJqfraEeN16 </Typography>
+                    </a>  
+                </Typography>
+                
                 <Typography variant="h6" style={{ margin: "0.2em" }}>
                     {" Our Events "}
                 </Typography>

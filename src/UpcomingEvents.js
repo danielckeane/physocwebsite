@@ -16,11 +16,12 @@ class UpcomingEvents extends Component {
         <Typography variant="h4" style={{ margin: "0.2em" }}>
           {" Upcoming Events "}
         </Typography>
-        <Typography variant="h5" style={{ padding: "3px 10px" }} className="AboutUsSmallScreen">
-          {
-            "We currently have no upcoming events (but it's best to check facebook, just in case)"
-          }
-        </Typography>
+        <EventItem
+                    img="images/EventBeer.svg"
+                    date="17/09/19 | 21:00"
+                    title="Pub Quiz"
+                    body="We'll be having out annual pub quiz with Astrosoc on Friday, come along to meet fellow physists and astronomers and test your trivia knowledge"
+                />
       </div>
     );
   }
