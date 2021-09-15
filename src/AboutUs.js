@@ -6,7 +6,9 @@ import { Typography } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 
 import AboutItem from "./AboutItem.js";
-/* 2d6ec4ff  #5a8ed1ff */
+/* 2d6ec4ff  #5a8ed1ff 
+                        "We're Physoc, the Glasgow University physics society.  We have a library (Kelvin Bulding, room 332) which, though not as big as the university's library, still has a fair number of good books.  We also have a common room where we sometimes hold events."
+*/
 class AboutUs extends Component {
 
     render() {
@@ -17,12 +19,23 @@ class AboutUs extends Component {
                     variant="h5"
                     color="text"
                     className="AboutUsSmallScreen"
-                    style={{ padding: "20px 18%", zIndex: "2", "textAlign": "justify" }}
+                    style={{ padding: "20px 18% 5px 18%", zIndex: "2", "textAlign": "justify" }}
                 >
                     {
-                        "We're Physoc, the Glasgow University physics society.  We have a library (Kelvin Bulding, room 332) which, though not as big as the university's library, still has a fair number of good books.  We also have a common room where we sometimes hold events."
+                        "GU Physoc is dedicated to bringing together fellow physics enthusiasts from across all walks of university life for the celebration and promotion of physics. Whether you are a physics student or just a science enthusiast, GU Physoc is open to all."
                     }
                 </Typography>
+                <Typography
+                    variant="h5"
+                    color="text"
+                    className="AboutUsSmallScreen"
+                    style={{ padding: "5px 18% 20px 18%", zIndex: "2", "textAlign": "justify", display: "inline" }}
+                >
+                    {
+                "Sign up to GU Physoc to enjoy socials such as our Pub Quiz, Pub & Subcrawls, and ceilidhs, academic events like guest lectures by some of the UK's top physicists, EGM & AGMs to let your voice be heard in relation to our society, and gain access to the Kelvin building student library (Room 332) which includes many of the course textbooks for all Physics levels."
+                    }
+                </Typography>
+
                 <Typography
                     variant="h5"
                     color="text"
