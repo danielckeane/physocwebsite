@@ -8,7 +8,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
-   sodipodi:docname="EventMicrophone.svg"
+   sodipodi:docname="EventLectureBackup.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="-16.25"
-     inkscape:cy="77.142857"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="99.500026"
+     inkscape:cy="194.95944"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1092"
+     inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -57,19 +57,17 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-98.76564,-120.70886)">
-    <g
-       id="g1092"
-       transform="matrix(0.81767532,0,0,0.81767532,483.96993,-64.405204)">
-      <path
-         inkscape:connector-curvature="0"
-         id="path1138"
-         d="m -460.54931,226.62061 v 31.11897 h 14.61035 l 5.4354,-5.43618 v -25.68279 z"
-         style="fill:#d07570;fill-opacity:1;stroke:none;stroke-width:3.59807372;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path1140"
-         d="m -453.37463,260.57586 v 17.9853 l 5.69639,-5.69559 v -12.28971 z"
-         style="fill:#d07570;fill-opacity:1;stroke:none;stroke-width:1.02296567;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path1050"
+       d="m 103.14452,126.1991 v 37.28868 h 14.25339 l 9.26662,-7.99086 V 126.1991 Z"
+       style="fill:#d08770;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       y="120.70886"
+       x="98.76564"
+       height="3.8850913"
+       width="32.277557"
+       id="rect1054"
+       style="fill:#d08770;fill-opacity:1;stroke:none;stroke-width:1.10213339;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>
