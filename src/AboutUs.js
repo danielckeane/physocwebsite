@@ -45,7 +45,7 @@ class AboutUs extends Component {
                     style={{ padding: "5px 18% 20px 18%", zIndex: "2", "textAlign": "justify" }}
                 >
                     {
-                        "Sign Up Free: "
+                        "Sign Up Free (2021-2022): "
                     }
 
                     <a className="AboutUsSmallScreen" href="https://forms.gle/dMmRWJFJqfraEeN16 " style={{textDecoration: "none",}}>
