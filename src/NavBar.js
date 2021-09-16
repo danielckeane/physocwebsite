@@ -3,6 +3,12 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import "./App.css";
 
+/*<Typography variant="h6" className="NotDisplayOnSmallScreens">
+  <a href="#Sponsors" className="Nav-button">
+    Sponsors
+</a>
+</Typography>*/
+
 class NavBar extends Component {
   render() {
     return (
@@ -34,12 +40,6 @@ class NavBar extends Component {
               Contact Us
           </a>
           </Typography>
-          <Typography variant="h6" className="NotDisplayOnSmallScreens">
-            <a href="#Sponsors" className="Nav-button">
-              Sponsors
-          </a>
-          </Typography>
-
 
           <Typography variant="h6">
             <a href="http://www.iop.org/" style={{ "color": "#bf616a" }} className="Nav-button">
