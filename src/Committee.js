@@ -28,8 +28,8 @@ class OurCommittee extends Component {
         }
 
         this.state.htmlMembers = this.state.members.map((item) => {
-            return (<div className="CommitteePaddingHeadingSmallScreen CommitteeAlignCentreSmallScreen" style={{ "padding": "10px 0px", "margin": 0, "textAlign": "left"}}>
-                <i className="CommitteeListTitle">{item[0]}</i>
+            return (<div className="CommitteePaddingHeadingSmallScreen CommitteeAlignCentreSmallScreen" style={{ "padding": "12px 0px", "margin": 0, "textAlign": "left"}}>
+                <span className="CommitteeListTitle">{item[0]}</span>
                 <p className="DisplayBlockOnSmallScreens CommitteePaddingPersonSmallScreen CommitteeAlignCentreSmallScreen" style={{ "display": "inline","textAlign": "right" }}>{item[1]} </p></div>)
         })
     }
@@ -40,7 +40,7 @@ class OurCommittee extends Component {
                 <Typography variant="h4" style={{ margin: "0.2em", marginBottom: "1em"}} class="titleTextFont">
                     {" Our Committee "}
                 </Typography>
-                <Typography variant="h5" className="CommitteeAlignCentreSmallScreen CommitteeList">
+                <Typography variant="h6" className="CommitteeAlignCentreSmallScreen CommitteeList">
                     {this.state.htmlMembers}
                 </Typography>
                 <img
