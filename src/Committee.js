@@ -12,7 +12,7 @@ class OurCommittee extends Component {
         super(props);
         this.state = {
             members: [
-                ["President", "Lucy Joyce"],
+                ["President", ""],
                 ["Secretary", ""],
                 ["Treasurer", ""],
                 ["Social Events Convenor", ""],
