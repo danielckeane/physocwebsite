@@ -18,17 +18,17 @@ class UpcomingEvents extends Component {
         </Typography>
         <a href="https://www.facebook.com/events/4051632341613682" style={{textDecoration: "none", color: "#ecefe4"}}>
         <EventItem
-                    img="images/EventBeer.svg"
-                    date="17/09/19 | 21:00"
-                    title="Pub Quiz"
-                    body="We'll be having our (virtual) annual pub quiz with Astrosoc on Friday, come along to meet fellow physists and astronomers and test your trivia knowledge. Find the zoom link and more info on our facebook."
+                    img="images/RedQuark3.svg"
+                    date="date to be confirmed"
+                    title="Fresher's Fayre"
+                    body="Stop by our stall during fresher's fayre to join our society, ask us questions about what we do or just for a quick chat. We'll be there all day and are excited to meet you!S"
                 />
                 </a>
-                        <EventItem
-                    img="images/RedQuark3.svg"
-                    date="23/09/19 | 18:00"
-                    title="EGM"
-                    body="We'll be having an extraordinery general meeting on Wednesday 23rd September.  Come along to have your say in how the club is run or if you want to run for a position on the committee. Currently available positions are OCM, First Year Rep and Publisist.  Zoom link will be sent to members by email."
+        <EventItem
+                    img="images/EventBeer.svg"
+                    date=" date to be confirmed"
+                    title="Beer and Doughnuts"
+                    body="Perhaps one of our most famous events, we are excited for another Beer and Doughnuts at the start of the academic year. Join us for a fun quiz with free beer and doughnuts and get to know your fellow physicists!"
                 />
       </div>
     );
