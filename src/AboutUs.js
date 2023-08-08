@@ -52,7 +52,7 @@ class AboutUs extends Component {
                     <Typography variant="h5"
                     color="text"
                     style={{display: "inline", textDecoration: "none", color: "#3479d6ff", textDecorationColor: "transparent"}}>
-                        https://forms.gle/dMmRWJFJqfraEeN16 </Typography>
+                        https://www.glasgowunisrc.org/organisation/7921/  </Typography>
                     </a>
                 </Typography>
 
