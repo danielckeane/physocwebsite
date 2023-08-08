@@ -82,7 +82,7 @@ class AboutUs extends Component {
                             <AboutItem
                                 img="images/EventBeer.svg"
                                 title="Pub Crawls"
-                                body="We regularly hold pub crawls where you can meet up and socialise with like minded people".
+                                body="We regularly hold pub crawls where you can meet up and socialise with like minded people."
                                 imgWidth="30px"
                             />
                         </Grid>
