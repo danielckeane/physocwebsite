@@ -6,7 +6,7 @@ import { Typography } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 
 import AboutItem from "./AboutItem.js";
-/* 2d6ec4ff  #5a8ed1ff 
+/* 2d6ec4ff  #5a8ed1ff
                         "We're Physoc, the Glasgow University physics society.  We have a library (Kelvin Bulding, room 332) which, though not as big as the university's library, still has a fair number of good books.  We also have a common room where we sometimes hold events."
 */
                 /* f7d9cf  f4a086  ea572a  f24f3a Monoton*/
@@ -45,17 +45,17 @@ class AboutUs extends Component {
                     style={{ padding: "5px 18% 20px 18%", zIndex: "2", "textAlign": "justify" }}
                 >
                     {
-                        "Sign Up Free (2021-2022): "
+                        "Sign up for membership (2023-2024): "
                     }
 
-                    <a className="AboutUsSmallScreen" href="https://forms.gle/dMmRWJFJqfraEeN16 " style={{textDecoration: "none",}}>
+                    <a className="AboutUsSmallScreen" href="https://www.glasgowunisrc.org/organisation/7921/ " style={{textDecoration: "none",}}>
                     <Typography variant="h5"
                     color="text"
                     style={{display: "inline", textDecoration: "none", color: "#3479d6ff", textDecorationColor: "transparent"}}>
                         https://forms.gle/dMmRWJFJqfraEeN16 </Typography>
-                    </a>  
+                    </a>
                 </Typography>
-                
+
                 <Typography variant="h6" style={{ margin: "0.2em", fontFamily: "Merriweather", color:"#f24f3a", fontSize: "2rem", fontWeight: "Bold" }}>
                     {" Our Events "}
                 </Typography>
@@ -74,7 +74,7 @@ class AboutUs extends Component {
                             <AboutItem
                                 img="images/EventLecture.svg"
                                 title="Guest Lectures"
-                                body="We often hold guest lectures on a wide varity of topics, from dark matter to sports science"
+                                body="We often hold guest lectures on a wide varity of topics, from dark matter to the science of star wars."
                                 imgWidth="30px"
                             />
                         </Grid>
@@ -82,15 +82,15 @@ class AboutUs extends Component {
                             <AboutItem
                                 img="images/EventBeer.svg"
                                 title="Pub Crawls"
-                                body="We regularly hold pub crawls where you can meet up and socialise with like minded people"
+                                body="We regularly hold pub crawls where you can meet up and socialise with like minded people".
                                 imgWidth="30px"
                             />
                         </Grid>
                         <Grid item xs={12} sm={6}>
                             <AboutItem
                                 img="images/EventMicrophone.svg"
-                                title="Radio Speaker"
-                                body="We have podcasts given by various lecturers both from within and without the university"
+                                title="7 Minutes of Science"
+                                body="Once a year we bring together a variety of scientists to present their research - in just 7 minutes."
                                 imgWidth="30px"
                             />
                         </Grid>
@@ -98,7 +98,7 @@ class AboutUs extends Component {
                             <AboutItem
                                 img="images/EventSolarSystem2.svg"
                                 title="Team up with other societies"
-                                body="We team up with astrosoc and other societies for quiz nights, pub crawls and a variety of other events"
+                                body="We team up with astrosoc and other societies for quiz nights, pub crawls and a variety of other events."
                                 imgWidth="50px"
                             />
                         </Grid>
