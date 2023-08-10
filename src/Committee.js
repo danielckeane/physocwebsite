@@ -12,17 +12,17 @@ class OurCommittee extends Component {
         super(props);
         this.state = {
             members: [
-                ["President", ""],
-                ["Secretary", ""],
-                ["Treasurer", ""],
-                ["Social Events Convenor", ""],
-                ["Physics Events Convenor", ""],
-                ["Publicity Officer", ""],
-                ["Librarian", ""],
+                ["President", "Lucy Joyce (She/Her)"],
+                ["Secretary", "Zetta Butler (She/Her)"],
+                ["Treasurer", "Conor Lyons (He/Him)"],
+                ["Social Events Convenor", "Gregory Woodward (He/Him)"],
+                ["Academic Events Convenor", "Ella Garrow (She/Her)"],
+                ["Publicity Officer", "Tia Mayer (She/Her)"],
+                ["Welfare Officer", "Abhijai Guleria (He/Him)"],
                 ["Second Year Rep", ""],
                 ["First Year Rep", ""],
-                //["First Year Rep", ""],
-                ["OCM", ""]
+                ["OCM", "Daniel Keerie (He/Him)"],
+                ["OCM", "David Amorim (He/Him)"]
 
             ]
         }

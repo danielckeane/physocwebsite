@@ -21,7 +21,7 @@ class UpcomingEvents extends Component {
                     img="images/RedQuark3.svg"
                     date="date to be confirmed"
                     title="Fresher's Fayre"
-                    body="Stop by our stall during fresher's fayre to join our society, ask us questions about what we do or just for a quick chat. We'll be there all day and are excited to meet you!S"
+                    body="Stop by our stall during fresher's fayre to join our society, ask us questions about what we do or just for a quick chat. We'll be there all day and are excited to meet you!"
                 />
                 </a>
         <EventItem
