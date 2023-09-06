@@ -22,11 +22,14 @@ class EventItem extends Component {
           width="60em"
           style={{ marginBottom: "1em" }}
         />
+        <Typography variant="h4" style={{ margin: "0px 0px", padding: "0px" }}>
+          {this.props.title}
+        </Typography>
         <Typography variant="h6" style={{ margin: "0" }}>
           {this.props.date}
         </Typography>
-        <Typography variant="h6" style={{ margin: "0px 0px", padding: "0px" }}>
-          {this.props.title}
+        <Typography variant="h6" style={{ margin: "0" }}>
+          {this.props.location}
         </Typography>
         <Typography variant="body" className="UpcomingEventSmallScreen">{this.props.body}</Typography>
         <Divider style={{ marginTop: "1em", height: "3px" }} />

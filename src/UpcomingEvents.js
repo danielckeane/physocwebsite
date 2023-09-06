@@ -19,15 +19,17 @@ class UpcomingEvents extends Component {
         <a href="https://www.facebook.com/events/4051632341613682" style={{textDecoration: "none", color: "#ecefe4"}}>
         <EventItem
                     img="images/RedQuark3.svg"
-                    date="date to be confirmed"
+                    date="Tuesday 12/09 and Wednesday 13/09"
                     title="Fresher's Fayre"
-                    body="Stop by our stall during fresher's fayre to join our society, ask us questions about what we do or just for a quick chat. We'll be there all day and are excited to meet you!S"
+                    location="Professor's Square"
+                    body="Stop by our stall during fresher's fayre to join our society, ask us questions about what we do or just for a quick chat. We'll be there all day and are excited to meet you!"
                 />
                 </a>
         <EventItem
                     img="images/EventBeer.svg"
-                    date=" date to be confirmed"
+                    date="Tuesday 19/09"
                     title="Beer and Doughnuts"
+                    location="Kelvin Building Common Room"
                     body="Perhaps one of our most famous events, we are excited for another Beer and Doughnuts at the start of the academic year. Join us for a fun quiz with free beer and doughnuts and get to know your fellow physicists!"
                 />
       </div>
