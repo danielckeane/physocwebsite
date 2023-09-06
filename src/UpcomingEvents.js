@@ -25,6 +25,16 @@ class UpcomingEvents extends Component {
                     body="Stop by our stall during fresher's fayre to join our society, ask us questions about what we do or just for a quick chat. We'll be there all day and are excited to meet you!"
                 />
                 </a>
+        <a href="https://www.facebook.com/events/4051632341613682" style={{textDecoration: "none", color: "#ecefe4"}}>
+        <EventItem
+                    img="images/RedQuark3.svg"
+                    date="Wednesday 13/09"
+                    title="Fresher's Karaoke"
+                    location="The Record Factory"
+                    body="Stop by the Record Factory from 7pm to perform your favourite songs or simply listen to the angelic voices of your fellow PhySoc, AstroSoc and oSTEM members!"
+                />
+                </a>
+
         <EventItem
                     img="images/EventBeer.svg"
                     date="Tuesday 19/09"
