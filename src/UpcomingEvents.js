@@ -16,7 +16,7 @@ class UpcomingEvents extends Component {
         <Typography variant="h4" style={{ margin: "0.2em" }} class="titleTextFont">
           {" Upcoming Events "}
         </Typography>
-        <a href="https://www.facebook.com/events/4051632341613682" style={{textDecoration: "none", color: "#ecefe4"}}>
+        <a href="" style={{textDecoration: "none", color: "#ecefe4"}}>
         <EventItem
                     img="images/RedQuark3.svg"
                     date="Tuesday 12/09 and Wednesday 13/09"
@@ -25,7 +25,7 @@ class UpcomingEvents extends Component {
                     body="Stop by our stall during fresher's fayre to join our society, ask us questions about what we do or just for a quick chat. We'll be there all day and are excited to meet you!"
                 />
                 </a>
-        <a href="https://www.facebook.com/events/4051632341613682" style={{textDecoration: "none", color: "#ecefe4"}}>
+        <a href="https://www.facebook.com/events/205791942467682/?ref=newsfeed" style={{textDecoration: "none", color: "#ecefe4"}}>
         <EventItem
                     img="images/RedQuark3.svg"
                     date="Wednesday 13/09"
