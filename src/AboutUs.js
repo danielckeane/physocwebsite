@@ -24,7 +24,7 @@ class AboutUs extends Component {
                     style={{ padding: "15px 18% 0px 18%", zIndex: "2", "textAlign": "justify", lineHeight: "1.25" }}
                 >
                     {
-                        "GU Physoc is dedicated to bringing together fellow physics enthusiasts from across all walks of university life for the celebration and promotion of physics. Whether you are a physics student or just a science enthusiast, GU Physoc is open to all."
+                        "We are the Physics Society of Glasgow Uni!"
                     }
                 </Typography>
                 <Typography
@@ -34,7 +34,29 @@ class AboutUs extends Component {
                     style={{ padding: "5px 18% 20px 18%", zIndex: "2", "textAlign": "justify", display: "inline", lineHeight: "1.25" }}
                 >
                     {
-                "Sign up to GU Physoc to enjoy socials such as our Pub Quiz, Pub & Subcrawls, and ceilidhs, academic events like guest lectures by some of the UK's top physicists, EGM & AGMs to let your voice be heard in relation to our society, and gain access to the Kelvin building student library (Room 332) which includes many of the course textbooks for all Physics levels."
+                "Our goal is to bring the physicists and physics enthusiasts of our university together with academic and non-academic events throughout the year."
+                    }
+                </Typography>
+
+                <Typography
+                    variant="h5"
+                    color="text"
+                    className="AboutUsSmallScreen"
+                    style={{ padding: "5px 18% 20px 18%", zIndex: "2", "textAlign": "justify", display: "inline", lineHeight: "1.25" }}
+                >
+                    {
+                "Join us for our various guest lectures by experts in their field or stop by for our tutorials on how to write lab reports in LaTeX. If you need a break from all the stress of a physics degree, we also host pub crawls, ceilidhs and quiz nights or cross-over events with other societies."
+                    }
+                </Typography>
+
+                <Typography
+                    variant="h5"
+                    color="text"
+                    className="AboutUsSmallScreen"
+                    style={{ padding: "5px 18% 20px 18%", zIndex: "2", "textAlign": "justify", display: "inline", lineHeight: "1.25" }}
+                >
+                    {
+                "We also run a small library in Room 332 of the Kelvin Building with many course textbooks available for all our members. Stop by any week day of the semester between 12-2pm to browse our books or chat to us!"
                     }
                 </Typography>
 
