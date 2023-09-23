@@ -16,31 +16,24 @@ class UpcomingEvents extends Component {
         <Typography variant="h4" style={{ margin: "0.2em" }} class="titleTextFont">
           {" Upcoming Events "}
         </Typography>
-        <EventItem
-                    img="images/RedQuark3.svg"
-                    date="Tuesday 12/09 and Wednesday 13/09"
-                    title="Fresher's Fayre"
-                    location="Professor's Square"
-                    body="Stop by our stall during fresher's fayre to join our society, ask us questions about what we do or just for a quick chat. We'll be there all day and are excited to meet you!"
-                />
 
-        <a href="https://www.facebook.com/events/205791942467682/?ref=newsfeed" style={{textDecoration: "none", color: "#ecefe4"}}>
+        <a href="https://www.glasgowunisrc.org/events/7921/2158/" style={{textDecoration: "none", color: "#ecefe4"}}>
         <EventItem
                     img="images/RedQuark3.svg"
-                    date="Wednesday 13/09"
-                    title="Fresher's Karaoke"
-                    location="The Record Factory"
-                    body="Stop by the Record Factory from 7pm to perform your favourite songs or simply listen to the angelic voices of your fellow PhySoc, AstroSoc and oSTEM members!"
+                    date="Monday 02/10 - 6pm"
+                    title="EGM"
+                    location="Adam Smith Building 711"
+                    body="Join us for our Extraordinary General Meeting where we discuss our plans for the upcoming year!"
                 />
                 </a>
-
+/*
         <EventItem
                     img="images/EventBeer.svg"
                     date="Tuesday 19/09"
                     title="Beer and Doughnuts"
                     location="Kelvin Building Common Room"
                     body="Perhaps one of our most famous events, we are excited for another Beer and Doughnuts at the start of the academic year. Join us for a fun quiz with free beer and doughnuts and get to know your fellow physicists!"
-                />
+                /> */
       </div>
     );
   }
