@@ -26,14 +26,6 @@ class UpcomingEvents extends Component {
                     body="Join us for our Extraordinary General Meeting where we discuss our plans for the upcoming year!"
                 />
                 </a>
-/*
-        <EventItem
-                    img="images/EventBeer.svg"
-                    date="Tuesday 19/09"
-                    title="Beer and Doughnuts"
-                    location="Kelvin Building Common Room"
-                    body="Perhaps one of our most famous events, we are excited for another Beer and Doughnuts at the start of the academic year. Join us for a fun quiz with free beer and doughnuts and get to know your fellow physicists!"
-                /> */
       </div>
     );
   }
