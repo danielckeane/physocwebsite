@@ -17,7 +17,6 @@ class UpcomingEvents extends Component {
           {" Upcoming Events "}
         </Typography>
 
-        <a href="https://www.glasgowunisrc.org/events/7921/2158/" style={{textDecoration: "none", color: "#ecefe4"}}>
         <EventItem
                     img="images/RedQuark3.svg"
                     date="Tuesday 14/11 - 6pm"
@@ -25,7 +24,6 @@ class UpcomingEvents extends Component {
                     location="Kelvin Building Computer Cluster 333"
                     body="A relaxed tutorial for complete beginners! No equipment needed!"
                 />
-        </a>
 
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVlgRM6s7NJb3eiT5IUzoV2Jd-kakyxQIUWHDxbO00oWoXHQ/viewform" style={{textDecoration: "none", color: "#ecefe4"}}>
         <EventItem
