@@ -19,10 +19,11 @@ class OurCommittee extends Component {
                 ["Academic Events Convenor", "Ella Garrow (She/Her)"],
                 ["Publicity Officer", "Tia Mayer (She/Her)"],
                 ["Welfare Officer", "Abhijai Guleria (He/Him)"],
-                ["Second Year Rep", ""],
-                ["First Year Rep", ""],
+                ["Second Year Rep", "Roda Abdi Hassan (She/Her)"],
+                ["First Year Rep", "this could be you!"],
                 ["OCM", "Daniel Keerie (He/Him)"],
-                ["OCM", "David Amorim (He/Him)"]
+                ["OCM", "David Amorim (He/Him)"],
+                ["OCM", "Saffron Wittka-Jezewski (She/Her)"]
 
             ]
         }
