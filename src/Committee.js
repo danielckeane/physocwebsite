@@ -23,7 +23,7 @@ class OurCommittee extends Component {
                 ["First Year Rep", "this could be you!"],
                 ["OCM", "Daniel Keerie (He/Him)"],
                 ["OCM", "David Amorim (He/Him)"],
-                ["OCM", "Saffron Wittka-Jezewski (She/Her)"]
+                ["OCM", ""]
 
             ]
         }
