@@ -17,6 +17,14 @@ class UpcomingEvents extends Component {
           {" Upcoming Events "}
         </Typography>
 
+         <EventItem
+                    img="images/RedQuark3.svg"
+                    date="Thursday 14/11 - 6pm"
+                    title="Guest Lecture: The Gravity Spy project"
+                    location="42 Bute Gardens, room 916"
+                    body="Gravitational-wave detectors have opened up a new branch of astronomy. However, data from gravitational-wave detectors contains bursts of noise, known as glitches, that hinder our ability to analyse the data. Glitches may have a range of instrumental and environmental origins that can be difficult to uncover. The Gravity Spy project contributes to understanding glitches by combining the efforts of volunteers on the Zooniverse platform with automated analysis provided by machine-learning algorithms. In this talk, we will review the Gravity Spy project, looking at the challenges of gravitational-wave data analysis, and discussing how members of the public can be engaged with making scientific discoveries."
+                />
+
 
         <EventItem
                     img="images/RedQuark3.svg"
