@@ -13,17 +13,17 @@ class OurCommittee extends Component {
         this.state = {
             members: [
                 ["President", "Lucy Joyce (She/Her)"],
-                ["Secretary", "Zetta Butler (She/Her)"],
-                ["Treasurer", "Conor Lyons (He/Him)"],
-                ["Social Events Convenor", "Gregory Woodward (He/Him)"],
-                ["Academic Events Convenor", "Ella Garrow (She/Her)"],
-                ["Publicity Officer", "Tia Mayer (She/Her)"],
+                ["Vice President", "Zetta Butler (She/Her)"],
+                ["Secretary", "Gregory Woodward (He/Him)"],
+                ["Treasurer", "Daniel Keerie (He/Him)"],
+                ["Events Convenor", "Ella Garrow (She/Her)"],
+                ["Publicist", "Daniel Keane (He/Him)"],
                 ["Welfare Officer", "Abhijai Guleria (He/Him)"],
-                ["Second Year Rep", "Roda Abdi Hassan (She/Her)"],
-                ["First Year Rep", "this could be you!"],
-                ["OCM", "Daniel Keerie (He/Him)"],
-                ["OCM", "David Amorim (He/Him)"],
-                ["OCM", ""]
+                ["Second Year Rep", "Scott McGillivray (He/Him)"],
+                ["First Year Rep", "Gregor Swan (He/Him) "],
+                ["OCM", "Adam Hughes (He/Him) "],
+                ["OCM", "Teodora Raducanu (She/Her) "],
+                ["OCM", "Eloise Wood (She/Her) "]
 
             ]
         }
@@ -93,3 +93,7 @@ export default OurCommittee;
 
             ]
 */
+
+
+
+
